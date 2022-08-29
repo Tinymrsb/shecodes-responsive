@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Notation for HTML Links</title>
   </head>
   <body>
-    <h1>Link Notes</h1>
+    <h1>Notes</h1>
 
     <h2>Week 1 of SheCodes Responsive</h2>
     <div>
@@ -34,10 +35,56 @@
         will scroll the page down (or up) to the element selected. Give the
         selected element a unique id name.
       </p>
-      <p>Below is an example of an Anchor Link</p>
-      <a href="#">Anchor Link To Element</a>
+      <p>
+        Below is an example of an Anchor Link that will work on the same
+        document
+      </p>
+      <a href="#footer-element">Anchor Link To Element</a>
+      <p>
+        You can also create an Anchor Link that will go to an element on a
+        different document.
+      </p>
+      <p>
+        Below is an example of an Anchor Link that will direct to a different
+        document.
+      </p>
+      <a href="about.html#anchor-stop-here">Anchor Link to Element</a>
 
-      <!-- Insert Example for Anchor Link when more items are on this document to allow the scroll example to happen -->
+      <!-- Insert Example for Anchor Link when more items are on this document to allow the scroll example to happen   -->
+    </div>
+    <div>
+      <h3>Email Link</h3>
+      <p>
+        To add a link that will open the users email client use the `a href`
+        syntax with `mailto:` and your desired email address to receive emails.
+      </p>
+      <p>Below is an example of an Email Link</p>
+      <a href="emailto:youremail@email.com">Contact Email</a>
+    </div>
+    <div>
+      <h3>CSS Variables</h3>
+      <p>
+        With a CSS Variable you can create esablished variables that can be
+        reused throught the code.
+      </p>
+      <p>Our first step is to declare the variables at the top of our CSS style sheet. This will need the `:root` sutoselector. From here you will name the variable with the start of ` -- `. Now, visit the styles.css document to view the established CSS Variables used to style this note page.</p>
+    </div>
+    <div>
+      <footer>
+        <small
+          ><p id="footer-element">
+            <b
+              >The Anchor Link can scroll up or down to any element. The above
+              example of an Anchor Link has an id set to footer-element. That
+              will allow the Anchor Link to scroll down to this element.</b
+            >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            porro error eligendi vel fugiat tempora, quaerat atque velit eveniet
+            dolor esse cumque mollitia excepturi perspiciatis, veritatis aperiam
+            sapiente aut commodi.
+          </p></small
+        >
+      </footer>
     </div>
   </body>
 </html>

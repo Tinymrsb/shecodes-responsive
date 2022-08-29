@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #d6607d;
+  --background-primary-color: #b8b8b62c;
+}
+body {
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+p {
+  background-color: var(--background-primary-color);
+}
