@@ -2,8 +2,19 @@
   --primary-color: #d6607d;
   --background-primary-color: #b8b8b62c;
 }
+
+a {
+  text-decoration: none;
+  color: #21c0a5;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8879b0;
+}
+
 body {
-  margin-left: 10px;
+  margin: 15px;
 }
 
 h1 {
@@ -18,3 +29,14 @@ h3 {
 p {
   background-color: var(--background-primary-color);
 }
+
+.topics {
+  display: flex;
+  justify-content: center;
+  }
+
+  .topic {
+    justify-content: center;
+  padding: 10px;
+  flex: 1;
+  }

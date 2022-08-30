@@ -9,19 +9,28 @@
   </head>
   <body>
     <h1>Notes</h1>
-
     <h2>Week 1 of SheCodes Responsive</h2>
+    <!-- Flexbox is used to style the below links -->
+    <div class="topics">
+      <div class="topic"><a href="#external-links">External Links</a></div>
+      <div class="topic"><a href="#internal-links">Internal Links</a></div>
+      <div class="topic"><a href="#anchor-links">Anchor Links</a></div>
+      <div class="topic"><a href="#email-links">Email Links</a></div>
+      <div class="topic"><a href="#css-variables">CSS Variables</a></div>
+      <div class="topic"><a href="#flexbox">Flexbox</a></div>
+    </div>
+    <!-- Flexbox is used to style the above links -->
     <div>
-      <h3>External Links</h3>
+      <h3 id="external-links">External Links</h3>
       <p>
         To link to an external website, use the `a href` syntax. Here you will
         include the full direct link to the website.
       </p>
       <p>Below is an examply of an external link.</p>
-      <a href="https://twitter.com/tinymrsb">Visit my Twitter profile.</a>
+      <a href="https://twitter.com/tinymrsb" target="_blank">Visit my Twitter profile.</a>
     </div>
     <div>
-      <h3>Internal Links</h3>
+      <h3 id="internal-links">Internal Links</h3>
       <p>To link to an interal page use the path to the document.</p>
       <p>Below is an example of two internal links.</p>
       <a href="about.html">About Me</a>
@@ -29,7 +38,7 @@
       <a href="blog/first-post.html">Blog</a>
     </div>
     <div>
-      <h3>Anchor Links</h3>
+      <h3 id="anchor-links">Anchor Links</h3>
       <p>
         To link to a specific element on your website, use an Anchor Link. This
         will scroll the page down (or up) to the element selected. Give the
@@ -49,11 +58,9 @@
         document.
       </p>
       <a href="about.html#anchor-stop-here">Anchor Link to Element</a>
-
-      <!-- Insert Example for Anchor Link when more items are on this document to allow the scroll example to happen   -->
     </div>
     <div>
-      <h3>Email Link</h3>
+      <h3 id="email-links">Email Links</h3>
       <p>
         To add a link that will open the users email client use the `a href`
         syntax with `mailto:` and your desired email address to receive emails.
@@ -62,12 +69,26 @@
       <a href="emailto:youremail@email.com">Contact Email</a>
     </div>
     <div>
-      <h3>CSS Variables</h3>
+      <h3 id="css-variables">CSS Variables</h3>
       <p>
         With a CSS Variable you can create esablished variables that can be
         reused throught the code.
       </p>
-      <p>Our first step is to declare the variables at the top of our CSS style sheet. This will need the `:root` sutoselector. From here you will name the variable with the start of ` -- `. Now, visit the styles.css document to view the established CSS Variables used to style this note page.</p>
+      <p>
+        Our first step is to declare the variables at the top of our CSS style
+        sheet. This will need the `:root` sutoselector. From here you will name
+        the variable with the start of ` -- `. Now, visit the styles.css
+        document to view the established CSS Variables used to style this note
+        page.
+      </p>
+    </div>
+    <div>
+      <h3 id="flexbox">Flexbox</h3>
+      <p>
+        To use Flexbox you will always have to say the parent element is using
+        flex. In CSS you would declare ` display: flex; `. From here you can
+        change the flex-direction.
+      </p>
     </div>
     <div>
       <footer>
